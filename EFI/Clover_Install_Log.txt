@@ -1,0 +1,33 @@
+
+Clover EFI installer log - Mon Dec 23 22:03:59 CST 2019
+Installer version: v2.5k r5101 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *256.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk1         255.9 GB   disk0s2
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +255.9 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume X1 Carbon 2015          41.0 GB    disk1s1
+   2:                APFS Volume Preboot                 22.7 MB    disk1s2
+   3:                APFS Volume Recovery                514.9 MB   disk1s3
+   4:                APFS Volume VM                      1.1 GB     disk1s4
+
+Target volume /Volumes/X1 Carbon 2015 on disk1 is APFS on physical store disk0s2
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/X1 Carbon 2015/EFIROOTDIR/EFI folder to /Volumes/X1 Carbon 2015/EFI-Backups/r5100/2019-12-23-22h04/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
